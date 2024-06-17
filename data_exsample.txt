@@ -1,6 +1,0 @@
-plt.plot(radi_test,phas_test,label="data(CST Studio)")
-plt.plot(radi_test,pred,label="predict(XGboost)")
-plt.legend()
-
-plt.ylabel("Phase[deg]")
-plt.xlabel("rad[um]")
